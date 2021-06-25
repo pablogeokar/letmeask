@@ -24,6 +24,21 @@ Para este projeto de fins didáticos, as tecnologias abordadas foram:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+## Configurações importantes
+ o usuário deverá criar o arquivo `.env.local` no diretório raiz do projeto, com as seguintes variáveis:
+ - lembrando que estas variáveis são geradas durante o processo de criação de um projeto no firebase
+
+
+ ```Env
+REACT_APP_API_KEY="SUA_API_KEY"
+REACT_APP_AUTH_DOMAIN="DOMÍNIO_DE_AUTENTICAÇÃO_FIREBASE"
+REACT_APP_DATABASE_URL="URL_DO_BANCO"
+REACT_APP_PROJECT_ID="ID_PROJETO"
+REACT_APP_STORAGE_BUCKET="URL_STORAGE"
+REACT_APP_MESSAGING_SENDER_ID="MESSAGE_ID_SENDER"
+REACT_APP_APP_ID="APP_ID"
+ ```
+
 ## 📝 Licença
 
 O código fonte deste projeto é livre sob licença MIT. Maiores informações no arquivo [LICENSE](LICENSE.md).
